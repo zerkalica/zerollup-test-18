@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "build.ts": "ttsc --build --force",
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "build.notts": "rollup -c rollup.notts.config.js"
   },
   "devDependencies": {
     "@types/node": "^12.12.7",
