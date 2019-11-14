@@ -6,7 +6,8 @@
 		"allowSyntheticDefaultImports": true,
 		"moduleResolution": "node",
 		"sourceMap": true,
-                "declaration": true,
+                "declaration": true
+                "skipLibCheck": true,
 		"lib": [
 			"dom",
 			"esnext", "es5"

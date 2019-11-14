@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "ttsc"
+    "build": "ttsc --build --force"
   },
   "devDependencies": {
     "@types/node": "^12.12.7",
@@ -13,6 +13,6 @@
     "typescript": "^3.7.2"
   },
   "dependencies": {
-    "@zerollup/ts-transform-paths": "^1.7.5"
+    "@zerollup/ts-transform-paths": "^1.7.6"
   }
 }
