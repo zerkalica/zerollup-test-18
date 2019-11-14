@@ -1,16 +1,17 @@
 {
   "compilerOptions": {
 		"strict": true,
-		"module": "commonjs",
+		"module": "esnext",
 		"target": "es5",
 		"allowSyntheticDefaultImports": true,
 		"moduleResolution": "node",
 		"sourceMap": true,
-                "declaration": true
+                "declaration": true,
                 "skipLibCheck": true,
 		"lib": [
 			"dom",
-			"esnext", "es5"
+			"esnext",
+                        "es5"
 		],
     "rootDir": "src",
     "outDir": "lib",
