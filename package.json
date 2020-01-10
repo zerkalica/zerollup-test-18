@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "ttsc --build --force"
+    "build": "rm -rf lib ; ttsc --build --force"
   },
   "devDependencies": {
     "@types/node": "^12.12.7",

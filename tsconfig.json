@@ -2,7 +2,8 @@
   "compilerOptions": {
     "declaration": true
     "outDir": "lib",
-    "baseUrl": ".",
+    //"rootDir": "src",
+    "baseUrl": "src",
     "paths": {
       "*": ["modules/*"]
     },
